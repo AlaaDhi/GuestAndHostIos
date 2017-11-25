@@ -122,7 +122,7 @@ extension GuestMainController: UICollectionViewDelegate, UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Collection view at row \(collectionView.tag) selected index path \(indexPath)")
-        let destination = OfferDetail() // Your destination
+        let destination = OfferDetail()
         navigationController?.pushViewController(destination, animated: true)
         
     }

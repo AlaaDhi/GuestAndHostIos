@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
-class OfferDetail: UIViewController {
+class OfferDetail: UIViewController,MKMapViewDelegate {
 
     @IBOutlet weak var ColView: UICollectionView!
+    @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         ColView.backgroundColor = UIColor.clear
-
+        mapView.showsUserLocation = true
+        
+        /*let userLocation = mapView.userLocation
+        let region = MKCoordinateRegionMakeWithDistance(
+            userLocation.location!.coordinate, 2000, 2000)
+        
+        mapView.setRegion(region, animated: true)
+        */
         // Do any additional setup after loading the view.
     }
 
