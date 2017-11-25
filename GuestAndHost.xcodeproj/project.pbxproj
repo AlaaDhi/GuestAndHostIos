@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD3C1421B15E9E2BF021956E /* Pods_GuestAndHost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298066E11B2712C45CA56DE /* Pods_GuestAndHost.framework */; };
+		DD021CCA1FC9659200ED1AE9 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD021CC91FC9659200ED1AE9 /* ProfileController.swift */; };
 		DD477ECE1FBB5FF5003FBF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD477ECD1FBB5FF5003FBF8E /* AppDelegate.swift */; };
 		DD477ED01FBB5FF5003FBF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD477ECF1FBB5FF5003FBF8E /* ViewController.swift */; };
 		DD477ED31FBB5FF5003FBF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD477ED11FBB5FF5003FBF8E /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		245D6B654F91C5C405E88109 /* Pods-GuestAndHost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuestAndHost.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuestAndHost/Pods-GuestAndHost.release.xcconfig"; sourceTree = "<group>"; };
 		9298066E11B2712C45CA56DE /* Pods_GuestAndHost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuestAndHost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEC80CDEB86D4137C509519 /* Pods-GuestAndHost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuestAndHost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuestAndHost/Pods-GuestAndHost.debug.xcconfig"; sourceTree = "<group>"; };
+		DD021CC91FC9659200ED1AE9 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		DD477ECA1FBB5FF5003FBF8E /* GuestAndHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuestAndHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD477ECD1FBB5FF5003FBF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD477ECF1FBB5FF5003FBF8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				DD651E5C1FC4F00E003F5CDF /* GuestMainController.swift */,
 				DD7CA2E21FC5E536001AA095 /* GuestMainTVCell.swift */,
 				DD81916E1FC7116900864726 /* OfferDetail.swift */,
+				DD021CC91FC9659200ED1AE9 /* ProfileController.swift */,
 				DD477ED11FBB5FF5003FBF8E /* Main.storyboard */,
 				DD477ED71FBB5FF5003FBF8E /* Assets.xcassets */,
 				DD477ED91FBB5FF5003FBF8E /* LaunchScreen.storyboard */,
@@ -287,6 +290,7 @@
 				DD651E5D1FC4F00E003F5CDF /* GuestMainController.swift in Sources */,
 				DD7D75181FC60B120055DA40 /* URLS.swift in Sources */,
 				DD7D75131FC6077F0055DA40 /* User.swift in Sources */,
+				DD021CCA1FC9659200ED1AE9 /* ProfileController.swift in Sources */,
 				DD477ED61FBB5FF5003FBF8E /* GuestAndHost.xcdatamodeld in Sources */,
 				DD477ED01FBB5FF5003FBF8E /* ViewController.swift in Sources */,
 				DD81916F1FC7116900864726 /* OfferDetail.swift in Sources */,
